@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# Secrets: never commit
+.env
+*.env
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+# Data, weights, media (large or may not be redistributable)
+data/
+datasets/
+downloads/
+runs/
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.avi
+*.mov
+*.zip
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
